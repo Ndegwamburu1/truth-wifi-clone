@@ -1,0 +1,138 @@
+.nava {
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+    background-color: blueviolet;
+    color: white;
+}
+
+.nav {
+    position: relative;
+}
+
+.a {
+    display: flex;
+    margin-left: 3rem;
+    flex-shrink: none;
+    flex-grow: none;
+}
+
+.navb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 5px;
+    align-items: center;
+    justify-items: center;
+}
+
+.bdy {
+    border: 1px solid rgb(198, 191, 191);
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 25%;
+    height: 100%;
+    margin-left: 25rem;
+    background-color: white;
+}
+
+.m1 {
+    display: flex;
+    border: 1px solid rgb(189, 186, 186);
+    border-left: 0;
+    border-right: 0;
+    height: 5rem;
+    width: auto;
+    margin-top: 0em;
+    justify-content: center;
+    align-items: center;
+}
+
+.m8 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.m2 {
+    display: grid;
+    height: 2rem;
+    width: auto;
+    border-radius: 15px;
+    ;
+}
+
+.m3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 7px;
+}
+
+.m3_1 {
+    margin-right: 3.5rem;
+}
+
+m3_2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3.5rem;
+    flex-wrap: nowrap;
+    text-decoration-color: aqua;
+}
+
+.lr {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.m4 {
+    display: grid;
+    height: 2rem;
+    width: auto;
+    border-radius: 9rem;
+}
+
+.bd_1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.truth {
+    background-color: whitesmoke;
+}
+
+a {
+    color: rgb(92, 182, 184);
+    text-decoration: none;
+}
+
+.m5_1 {
+    color: white;
+    font-size: larger;
+    height: 3rem;
+    width: 6rem;
+    background-color: blueviolet;
+    border-radius: 10rem;
+}
+
+.m7_1 {
+    color: white;
+    font-size: larger;
+    height: 3rem;
+    width: 9rem;
+    background-color: blueviolet;
+    border-radius: 10rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
